@@ -1,6 +1,6 @@
 def call () {
 
-pipeline {
+   pipeline {
 	agent {
 	label 'kk'
 	}
@@ -28,6 +28,6 @@ pipeline {
                 }
 	}
 
-}
+   }
 
 }
