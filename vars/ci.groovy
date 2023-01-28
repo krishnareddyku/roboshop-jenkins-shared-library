@@ -1,9 +1,9 @@
 def call () {
 
-   pipeline {
-//	agent {
-//	label 'any'
-//	}
+  pipeline {
+	//agent {
+	//label 'any'
+	//}
 	
 	stages {
 		stage('compile/build') {
@@ -30,6 +30,6 @@ def call () {
                 }
 	}
 
-   }
+  }
 
 }
