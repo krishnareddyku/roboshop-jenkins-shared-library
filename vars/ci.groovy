@@ -33,6 +33,6 @@ def call () {
 
      }
   } catch(Exception e) {
-      mail bcc: '', body: 'TEST', cc: '', from: 'kkr@bcmonline.com', replyTo: '', subject: 'test from jenkins', to: 'myteam@bcmonline.com'
+      common.email("Failed")
   }
 }
