@@ -1,10 +1,8 @@
 def call () {
 
   pipeline {
-	agent {
-	label 'any'
-	}
-	
+   agent any
+
 	stages {
 		stage('compile/build') {
 			steps {
