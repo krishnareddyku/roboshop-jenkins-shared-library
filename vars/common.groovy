@@ -1,5 +1,5 @@
 def compile() {
-    if (app-lang == "node.js") {
-        echo 'npm install done'
+    if (app_lang == "node.js") {
+        sh 'npm install'
     }
 }
